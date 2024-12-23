@@ -1,0 +1,18 @@
+# Diese Zeile gibt den Standort der Sitemap an, um Suchmaschinen zu helfen, die Struktur Ihrer Website zu verstehen.
+
+Sitemap: https://localhost/sitemap.xml
+
+# Blockiert alle Crawler den Zugriff auf das gesamte Website.
+
+User-agent: *
+Disallow: /
+
+# Erlaubt allen Crawlern den Zugriff auf das gesamte Website. Entfernen Sie die obere Regel und aktivieren Sie diese, um Zugriff zu gewaehren.
+# User-agent: *
+# Allow: /
+
+# Blockiert den Zugriff auf bestimmte Verzeichnisse oder Seiten. Fuegen Sie hier die Pfade zu den zu blockierenden Bereichen hinzu.
+# Disallow: /private/
+
+# Erlaubt den Zugriff auf ein bestimmtes Verzeichnis oder eine bestimmte Datei, auch wenn die Seite ansonsten blockiert ist.
+# Allow: /public/
